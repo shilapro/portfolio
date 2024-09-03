@@ -1,99 +1,78 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mon Portfolio</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shila Stécie RAVELOMANANTENA - Portefeuille</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <div class="container">
-            <h1>CURRICULUM VITAE</h1>
-            <nav>
-                <ul>
-                    <li><a href="#about">À propos</a></li>
-                    <li><a href="#portfolio">Portfolio</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-            </nav>
-        </div>
-    </header>
+<header>
+  <div class="container">
+    <img src="profile.png" alt="Shila Stécie RAVELOMANANTENA" class="profile-img">
+    <div class="header-text">
+      <h1>Shila Stécie RAVELOMANANTENA</h1>
+      <p>Professionnelle de la Communication Dynamique</p>
+    </div>
+    <button class="switch-lang" onclick="switchLanguage('en')">English Version</button>
+  </div>
+</header>
 
-    <section id="about">
-        <div class="container">
-            <h2>Mon profil</h2>
-            <p>Je suis une assistante commerciale passionnée sur toute activité marketing. Voici un peu plus sur moi et mon parcours.</p>
-        </div>
-    </section>
+<section id="profile" class="content-section">
+  <h2>Profil</h2>
+  <p>
+    Je suis une professionnelle de la communication dynamique et passionnée avec une expérience approfondie en
+    relations publiques, rédaction de contenu et gestion de projets de communication. J'ai une forte capacité
+    à développer et à mettre en œuvre des stratégies de communication efficaces, avec d'excellentes compétences
+    interpersonnelles et la capacité de gérer plusieurs projets simultanément tout en respectant les délais.
+  </p>
+</section>
 
-    <section id="portfolio">
-        <div class="container">
-            <h2>Mon Portfolio</h2>
-            <div class="projects">
-                <div class="project">
-                    <img src="project1.jpg" alt="Projet 1">
-                    <h3>Profil</h3>
-                    <p>Jeune professionnelle dynamique et passionnée par le marketing et la communication, possedant une solide experience dans la gestion des relations publiques, la rédaction des contenus et la gestion de projet de communication. Exellentes compétences interpersonnelles et une capacité à élaborer et à mettre en oeuvre des stratégies de communication efficaces. Capable de travailler en équipe et de gérer plusieurs projets simultanément tout en respectant les différents délais</p>
-                </div>
-                <div class="project">
-                    <img src="project2.jpg" alt="Projet 2">
-                    <h3>Diplomes et attestations</h3>
-                    <p>2024: diplome delf B2</p><br>
-                    <p>2023: Master one en communication (FLSH) à l'Université de Fianarantsoa</p><br>
-                    <p>2022: Licence en langues et communication numérique à l'Université de Diego-Suarez</p><br>
-                    <p>2020: DEUG (Diplome d'études Universitaire général) à l'Univesité de Diego-Suarez</p><br>
-                    <p>2018: Bachelier en série D</p>
-                </div>
-                <!-- Ajoutez d'autres projets ici -->
-            </div>
-        </div>
-        <div class="container">
-          <div class="projects">
-              <div class="project">
-                  <img src="project1.jpg" alt="Projet 1">
-                  <h3>Formations professionnelles</h3>
-                  <p>2023: Formation en Community Management chez ORIGAMI Tech Fianarantsoa </p><br>
-                  <p>2022: -Formation en domaine journalisme à la Faculté des Letres et Sciences Humaines à Diego-Suarez<br>-Secrétaire de l'Association des Etudiants de Port-Bergé à l'Université de Madagascar(AEPUM)<br>- Stagiaire au MERIELEC à Diego-Suarez dans le domaine de maintenance web<br>- Enseignante de la langue Francaise à l'FPMC à Diego-Suarez</p>
-              </div>
-              <div class="project">
-                  <img src="project2.jpg" alt="Projet 2">
-                  <h3>Diplomes et attestations</h3>
-                  <p>2024: diplome delf B2</p><br>
-                  <p>2023: Master one en communication (FLSH) à l'Université de Fianarantsoa</p><br>
-                  <p>2022: Licence en langues et communication numérique à l'Université de Diego-Suarez</p><br>
-                  <p>2020: DEUG (Diplome d'études Universitaire général) à l'Univesité de Diego-Suarez</p><br>
-                  <p>2018: Bachelier en série D</p>
-              </div>
-              <!-- Ajoutez d'autres projets ici -->
-          </div>
-      </div>
-    </section>
+<section id="education" class="content-section">
+  <h2>Éducation</h2>
+  <ul>
+    <li><strong>Master 1 en Communication (2023) :</strong> Université de Fianarantsoa, Madagascar</li>
+    <li><strong>Licence en Langue et Communication Numérique (2022) :</strong> Université d'Antsiranana, Madagascar</li>
+    <li><strong>DEUG (2020) :</strong> Université d'Antsiranana, Madagascar</li>
+    <li><strong>Baccalauréat Série D (2018) :</strong> Lycée, Madagascar</li>
+  </ul>
+</section>
 
-    <section id="contact">
-        <div class="container">
-            <h2>Contactez-moi</h2>
-            <form id="contact-form">
-                <label for="name">Nom :</label>
-                <input type="text" id="name" name="name" required>
+<section id="experience" class="content-section">
+  <h2>Expérience Professionnelle</h2>
+  <ul>
+    <li><strong>Responsable de Communication (2020 - Présent) :</strong> Association de Port-Bergé (A.E.P.U.A)</li>
+    <li><strong>Stage en Développement Web (2022) :</strong> MERIELEC, Diego Suarez, Madagascar</li>
+    <li><strong>Professeur de Langue Française (2022) :</strong> FPMC, Diego Suarez, Madagascar</li>
+    <li><strong>Journaliste et Présentatrice (2019) :</strong> TV Jupiter, Madagascar</li>
+  </ul>
+</section>
 
-                <label for="email">Email :</label>
-                <input type="email" id="email" name="email" required>
+<section id="skills" class="content-section">
+  <h2>Compétences</h2>
+  <ul>
+    <li><strong>Langues :</strong> Français (Courant), Anglais (Compétent)</li>
+    <li><strong>Compétences Techniques :</strong> Microsoft Office (Word, Excel, PowerPoint), Développement Web (HTML, CSS, JavaScript)</li>
+    <li><strong>Compétences Clés :</strong> Compétences en communication et interpersonnelles, Gestion de projet, Pensée analytique, Collaboration en équipe</li>
+  </ul>
+</section>
 
-                <label for="message">Message :</label>
-                <textarea id="message" name="message" required></textarea>
+<section id="interests" class="content-section">
+  <h2>Centres d'Intérêt</h2>
+  <ul>
+    <li>Voyages</li>
+    <li>Musique</li>
+    <li>Basket-ball</li>
+  </ul>
+</section>
 
-                <button type="submit">Envoyer</button>
-            </form>
-        </div>
-    </section>
+<footer>
+  <p>Contact : +261 34 87 827 12 | <a href="mailto:shilastecie@gmail.com">shilastecie@gmail.com</a></p>
+  <p>Adresse : Antanifotsy Andrainjato, Fianarantsoa, Madagascar</p>
+  <button class="switch-lang" onclick="switchLanguage('en')">English Version</button>
+</footer>
 
-    <footer>
-        <div class="container">
-            <p>&copy; 2024 Mon Nom. Tous droits réservés.</p>
-        </div>
-    </footer>
-
-    <script src="scripts.js"></script>
+<script src="scripts.js"></script>
 </body>
 </html>
