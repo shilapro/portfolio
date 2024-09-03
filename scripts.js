@@ -15,9 +15,9 @@ document.getElementById('contactForm').addEventListener('submit', function(e) {
 });
 
 function switchLanguage(lang) {
-  if (lang === 'fr') {
+  if (lang == 'fr') {
     window.location.href = 'index.html';
-  } else if (lang === 'en') {
+  } else if (lang == 'en') {
     window.location.href = 'index_en.html';
   }
 }
