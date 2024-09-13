@@ -1,78 +1,203 @@
 <!DOCTYPE html>
-<html lang="fr">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Shila Stécie RAVELOMANANTENA - Portefeuille</title>
-  <link rel="stylesheet" href="styles.css">
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-</head>
-<body>
-<header>
-  <div class="container">
-    <img src="profile.png" alt="Shila Stécie RAVELOMANANTENA" class="profile-img">
-    <div class="header-text">
-      <h1>Shila Stécie RAVELOMANANTENA</h1>
-      <p>Professionnelle de la Communication Dynamique</p>
-    </div>
-    <button class="switch-lang" onclick="switchLanguage('en')">English Version</button>
-  </div>
-</header>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<section id="profile" class="content-section">
-  <h2>Profil</h2>
-  <p>
-    Je suis une professionnelle de la communication dynamique et passionnée avec une expérience approfondie en
-    relations publiques, rédaction de contenu et gestion de projets de communication. J'ai une forte capacité
-    à développer et à mettre en œuvre des stratégies de communication efficaces, avec d'excellentes compétences
-    interpersonnelles et la capacité de gérer plusieurs projets simultanément tout en respectant les délais.
-  </p>
-</section>
+        <!-- ===== CSS ===== -->
+        <link rel="stylesheet" href="assets/css/styles.css">
 
-<section id="education" class="content-section">
-  <h2>Éducation</h2>
-  <ul>
-    <li><strong>Master 1 en Communication (2023) :</strong> Université de Fianarantsoa, Madagascar</li>
-    <li><strong>Licence en Langue et Communication Numérique (2022) :</strong> Université d'Antsiranana, Madagascar</li>
-    <li><strong>DEUG (2020) :</strong> Université d'Antsiranana, Madagascar</li>
-    <li><strong>Baccalauréat Série D (2018) :</strong> Lycée, Madagascar</li>
-  </ul>
-</section>
+        <!-- ===== BOX ICONS ===== -->
+        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
 
-<section id="experience" class="content-section">
-  <h2>Expérience Professionnelle</h2>
-  <ul>
-    <li><strong>Responsable de Communication (2020 - Présent) :</strong> Association de Port-Bergé (A.E.P.U.A)</li>
-    <li><strong>Stage en Développement Web (2022) :</strong> MERIELEC, Diego Suarez, Madagascar</li>
-    <li><strong>Professeur de Langue Française (2022) :</strong> FPMC, Diego Suarez, Madagascar</li>
-    <li><strong>Journaliste et Présentatrice (2019) :</strong> TV Jupiter, Madagascar</li>
-  </ul>
-</section>
+        <title>Shila Stécie</title>
+    </head>
+    <body>
+        <!--===== HEADER =====-->
+        <header class="l-header">
+            <nav class="nav bd-grid">
+                <div>
+                    <a href="#" class="nav__logo">Shila Stécie</a>
+                </div>
 
-<section id="skills" class="content-section">
-  <h2>Compétences</h2>
-  <ul>
-    <li><strong>Langues :</strong> Français (Courant), Anglais (Compétent)</li>
-    <li><strong>Compétences Techniques :</strong> Microsoft Office (Word, Excel, PowerPoint), Développement Web (HTML, CSS, JavaScript)</li>
-    <li><strong>Compétences Clés :</strong> Compétences en communication et interpersonnelles, Gestion de projet, Pensée analytique, Collaboration en équipe</li>
-  </ul>
-</section>
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
+                        <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                        <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+                        <li class="nav__item"><a href="#portfolio" class="nav__link">Portfolio</a></li>
+                        <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                    </ul>
+                </div>
 
-<section id="interests" class="content-section">
-  <h2>Centres d'Intérêt</h2>
-  <ul>
-    <li>Voyages</li>
-    <li>Musique</li>
-    <li>Basket-ball</li>
-  </ul>
-</section>
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-menu'></i>
+                </div>
+            </nav>
+        </header>
 
-<footer>
-  <p>Contact : +261 34 87 827 12 | <a href="mailto:shilastecie@gmail.com">shilastecie@gmail.com</a></p>
-  <p>Adresse : Antanifotsy Andrainjato, Fianarantsoa, Madagascar</p>
-  <button class="switch-lang" onclick="switchLanguage('en')">English Version</button>
-</footer>
+        <main class="l-main">
+            <!--===== HOME =====-->
+            <section class="home" id="home">
+                <div class="home__container bd-grid">
+                    <h1 class="home__title"><span>HE</span><br>LLO.</h1>
 
-<script src="scripts.js"></script>
-</body>
+                    <div class="home__scroll">
+                        <a href="#about" class="home__scroll-link"><i class='bx bx-up-arrow-alt' ></i>Scroll down</a>
+                    </div>
+
+                    <img src="assets/img/shila.JPG" alt="" class="home__img">
+                </div>
+            </section>
+            
+            <!--===== ABOUT =====-->
+            <section class="about section" id="about">
+                <h2 class="section-title">About</h2>
+
+                <div class="about__container bd-grid">
+                    <div class="about__img">
+                        <img src="assets/img/profile.png" alt="">
+                    </div>
+
+                    <div>
+                        <h2 class="about__subtitle">I'am Shila Stécie RAVELOMANANTENA</h2>
+                        <span class="about__profession">Dynamic Communication Professional</span>
+                        <p class="about__text">I am a dynamic and passionate communication professional with extensive experience in public relations, content writing, and communication project management. I have a strong ability to develop and implement effective communication strategies, with excellent interpersonal skills and the capacity to manage multiple projects simultaneously while meeting deadlines.</p>
+
+                        <div class="about__social">
+                            <a href="#" class="about__social-icon"><i class='bx bxl-linkedin' ></i></a>
+                            <a href="https://github.com/shilapro" class="about__social-icon"><i class='bx bxl-github' ></i></a>
+                            <a href="#" class="about__social-icon"><i class='bx bxl-dribbble' ></i></a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--===== SKILLS =====-->
+            <section class="skills section" id="skills">
+                <h2 class="section-title">Skills</h2>
+
+                <div class="skills__container bd-grid">
+                    <div class="skills__box">
+
+                        <h3 class="skills__subtitle">Communication</h3>
+                        <span class="skills__name">Communication commercial</span>
+                        <span class="skills__name">Gestion projet</span>
+
+                        <h3 class="skills__subtitle">Development</h3>
+                        <span class="skills__name">Html</span>
+                        <span class="skills__name">Css</span>
+                        <span class="skills__name">Javascript</span>
+                        <span class="skills__name">gitHub</span>
+                                                
+                        <h3 class="skills__subtitle">Design</h3>
+                        <span class="skills__name">Photoshop</span>
+                    </div>
+
+                    <div class="skills__img">
+                        <img src="assets/img/skill.jpg" alt="">
+                    </div>
+                </div>
+            </section>
+
+            <!--===== PORTFOLIO =====-->
+            <section class="portfolio section" id="portfolio">
+                <h2 class="section-title">Portfolio</h2>
+
+                <div class="portfolio__container bd-grid">
+                    <div class="portfolio__img">
+                        <img src="assets/img/work1.jpg" alt="">
+
+                        <div class="portfolio__link">
+                            <a href="#" class="portfolio__link-name"><b>Responsable de Communication (2020 - Présent) : Association de Port-Bergé (A.E.P.U.A)</b></a>
+                        </div>
+                    </div>
+                    <div class="portfolio__img">
+                        <img src="assets/img/work2.jpg" alt="">
+
+                        <div class="portfolio__link">
+                            <a href="#" class="portfolio__link-name"><b>Stage en Développement Web (2022) : MERIELEC, Diego Suarez, Madagascar</b></a>
+                        </div>
+                    </div>
+                    <div class="portfolio__img">
+                        <img src="assets/img/work3.jpg" alt="">
+
+                        <div class="portfolio__link">
+                            <a href="#" class="portfolio__link-name"><b>Professeur de Langue Française (2022) : FPMC, Diego Suarez, Madagascar</b></a>
+                        </div>
+                    </div>
+                    <div class="portfolio__img">
+                        <img src="assets/img/work4.jpg" alt="">
+
+                        <div class="portfolio__link">
+                            <a href="#" class="portfolio__link-name"><b>Journaliste et Présentatrice (2019) : TV Jupiter, Madagascar</b></a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--===== CONTACT =====-->
+            <section class="contact section" id="contact">
+                <h2 class="section-title">Contact</h2>
+
+                <div class="contact__container bd-grid">
+                    <div class="contact__info">
+                        <h3 class="contact__subtitle">EMAIL</h3>
+                        <span class="contact__text">shilastecie@gmail.com</span>
+
+                        <h3 class="contact__subtitle">PHONE</h3>
+                        <span class="contact__text">+261 34 87 827 12</span>
+
+                        <h3 class="contact__subtitle">ADRESS</h3>
+                        <span class="contact__text">Antanifotsy Andrainjato, Fianarantsoa, Madagascar</span>
+                    </div>
+
+                    <form action="" class="contact__form">
+                        <div class="contact__inputs">
+                            <input type="text" placeholder="Name" class="contact__input">
+                            <input type="mail" placeholder="Email" class="contact__input">
+                        </div>
+
+                        <textarea name="" id="" cols="0" rows="10" class="contact__input"></textarea>
+
+                        <input type="submit" value="Envoyer" class="contact__button">
+                    </form>
+                </div>
+            </section>
+        </main>
+
+        <!--===== FOOTER =====-->
+        <footer class="footer section">
+            <div class="footer__container bd-grid">
+                <div class="footer__data">
+                    <h2 class="footer__title">Shila Stécie</h2>
+                    <p class="footer__text">I'm Shila Stécie and this is my personal website</p>
+                </div>
+
+                <div class="footer__data">
+                    <h2 class="footer__title">EXPLORE</h2>
+                    <ul>
+                        <li><a href="#home" class="footer__link">Home</a></li>
+                        <li><a href="#about" class="footer__link">About</a></li>
+                        <li><a href="#skills" class="footer__link">Skills</a></li>
+                        <li><a href="#portfolio" class="footer__link">Portfolio</a></li>
+                        <li><a href="#Contact" class="footer__link">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer__data">
+                    <h2 class="footer__title">FOLLOW</h2>
+                    <a href="https://www.facebook.com/stecie.shila" class="footer__social"><i class='bx bxl-facebook' ></i></a>
+                    <a href="#" class="footer__social"><i class='bx bxl-instagram' ></i></a>
+                    <a href="#" class="footer__social"><i class='bx bxl-twitter' ></i></a>
+                </div>
+            </div>
+        </footer>
+
+        <!--===== SCROLL REVEAL =====-->
+        <script src="https://unpkg.com/scrollreveal"></script>
+
+        <!--===== MAIN JS =====-->
+        <script src="assets/js/main.js"></script>
+    </body>
 </html>
